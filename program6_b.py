@@ -1,3 +1,4 @@
+#script python para calcular la serie Collatz
 #ingresenum = None
 
 while True:
