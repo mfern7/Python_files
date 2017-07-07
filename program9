@@ -1,0 +1,34 @@
+
+lista1 = ['uno', 'dos', 'tres']
+
+lista1[2] = 'cuatro'
+
+print(lista1)
+
+lista1.append('cinco')
+
+print(lista1)
+
+tuple1 = ('siete', 'ocho', 'nueve')
+
+print(tuple1[0:2])
+
+dict1 = {'nombre': 'marcos', 'edad': 40, 'altura': 178}
+
+print('altura: ' + str(dict1['altura']))
+
+print(dict1.values())
+print(dict1.keys())
+print(dict1.items())
+
+datospersonales = list(dict1.values())
+
+print(datospersonales)
+
+print('Altura: ' + str(dict1.get('altura', 'No hay peso registrado')))
+
+print('Peso: ' + str(dict1.get('peso', 'No hay peso registrado')))
+
+dict1.setdefault('ojos', 'marrones')
+                 
+print(dict1)
